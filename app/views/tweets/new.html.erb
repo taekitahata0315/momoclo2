@@ -1,0 +1,12 @@
+
+<div class ="contents row">
+<h4>
+  ももクロライブについての感想
+  </h4>
+
+  <a href="/">一覧に戻る</a>
+  <%= form_for @tweet do |f| %>
+    <%=f.text_field :text%>
+    <%=f.submit "投稿"%>
+  <%end %>
+
